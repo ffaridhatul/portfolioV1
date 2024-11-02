@@ -5,89 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faridhatul Zikri - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
 </head>
 <body>
-    <!-- Navbar -->
-    <header class="navbar">
-        <div class="navbar-brand">
-            <h1>Faridhatul Zikri</h1>
-            <p>faridhatulzikri11@gmail.com</p>
-            <p>082284861147</p>
+<!-- Navbar -->
+<header class="navbar">
+    <div class="navbar-brand">
+        <h1>Faridhatul Zikri</h1>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> faridhatulzikri11@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 0822-8486-1147</p>
         </div>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#recommendations">Recommendations</a>
-        </nav>
-    </header>
+    </div>
+    <nav class="navbar-links">
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#recommendations">Recommendations</a>
+    </nav>
+</header>
+
 
     <!-- About Me Section -->
     <section id="about" class="about">
         <div class="about-content">
-            <h2>Hi, I'm Faridhatul Zikri! 👋</h2>
-            <p>I am a full stack developer with experience in both application and presentation layers. I have worked on various applications and microservices deployed on cloud platforms.</p>
+            <img src="./img/me.jpg" alt="Profile Picture" class="profile-image">
+            <div class="about-text">
+                <h2>Hi, I'm Faridhatul Zikri! 👋</h2>
+                <p>I am a full stack developer with 2 years of experience in both application and presentation layers. I have worked on applications and microservices deployed on cloud platforms. I am passionate about coding and problem-solving, and enjoy working on projects that make a real impact.</p>
+            </div>
         </div>
     </section>
+
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <h2>Skills</h2>
         <div class="skills-grid">
             <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML Icon">
                 <p>HTML</p>
-                <p>2 years experience</p>
+                <p>1.5 years experience</p>
             </div>
             <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript Icon">
                 <p>JavaScript</p>
                 <p>1.5 years experience</p>
             </div>
             <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java Icon">
                 <p>Java</p>
-                <p>0.5 years experience</p>
+                <p>1 years experience</p>
             </div>
             <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React Icon">
                 <p>React</p>
-                <p>1 year experience</p>
+                <p>6 moths experience</p>
             </div>
             <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js Icon">
                 <p>Node.js</p>
                 <p>1 year experience</p>
             </div>
             <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS Icon">
                 <p>CSS</p>
-                <p>2 years experience</p>
+                <p>1.5 years experience</p>
+            </div>
+            <!-- Penambahan skill C#, Python, dan PHP -->
+            <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png" alt="C# Icon">
+                <p>C#</p>
+                <p>1 year experience</p>
+            </div>
+            <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python Icon">
+                <p>Python</p>
+                <p>6 months experience</p>
+            </div>
+            <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/php.png" alt="PHP Icon">
+                <p>PHP</p>
+                <p>6 months experience</p>
             </div>
         </div>
     </section>
+    
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <h2>Projects</h2>
-        <ul>
-            <li><strong>Chatbot:</strong> Developed a secure website integrated with a chatbot for an automobile client using HTML, CSS, JavaScript.</li>
-            <hr>
-            <li><strong>Sentiment Analyzer:</strong> Developed and deployed a sentiment analyzer for the reviews section of an eCommerce platform.</li>
-            <hr>
-            <li><strong>Fashion Website:</strong> Created a multi-page website for a fashion industry client with a shopping cart feature. <hr></li>
-        </ul>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Employee and Department Management</h3>
+                <p>Designed and implemented a secure, responsive web application for managing employees and departments using the Spring Boot framework and REST APIs for the backend, combined with a dynamic React.js frontend for an intuitive user experience.</p>
+            </div>
+            <div class="project-item">
+                <h3>Income and Expense Tracker</h3>
+                <p>Developed a simple application to track income and expenses using C# with WinForms. This project provides users with an easy-to-use interface for recording and categorizing financial transactions, offering essential features for personal budget management.</p>
+                <p><a href="https://github.com/ffaridhatul/Aplikasi-Keuangan-Pribadi" target="_blank">View Project on GitHub</a></p>
+            </div>
+            
+            <div class="project-item">
+                <h3>Restaurant Website</h3>
+                <p>Designed a responsive multi-page restaurant website using HTML, CSS, and JavaScript, featuring an intuitive layout and user-friendly navigation. <a href="https://ffaridhatul.github.io/restaurant-responsive-web-page/" target="_blank">View Project</a></p>
+
+            </div>
+        </div>
     </section>
 
-    <!-- Recommendations Section -->
-    <section id="recommendations" class="recommendations">
-        <h2>Recommendations</h2>
-        <blockquote>“Faridhatul is a quick learner with great problem-solving skills, dedicated to delivering high-quality code.”</blockquote>
-        <blockquote>“Faridhatul's attention to detail and dedication to projects has made her an invaluable team member.”</blockquote>
-        <blockquote>“It was a pleasure working with Faridhatul. Her skills in development and communication were top-notch.”</blockquote>
-    </section>
 
-    <!-- Recommendation Form -->
-    <section class="recommendation-form">
-        <h2>Leave a Recommendation</h2>
-        <form>
-            <textarea placeholder="Enter your recommendation here..."></textarea>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+<!-- Recommendations Section -->
+<section id="recommendations" class="recommendations">
+    <h2>Recommendations</h2>
+    <!-- Pastikan semua rekomendasi baru ditambahkan di sini -->
+    <div id="newRecommendations" class="recommendation-cards">
+        <div class="recommendation-card">
+            <blockquote>“Faridhatul is a quick learner with great problem-solving skills, dedicated to delivering high-quality code.”</blockquote>
+        </div>
+        <div class="recommendation-card">
+            <blockquote>“Faridhatul's attention to detail and dedication to projects has made her an invaluable team member.”</blockquote>
+        </div>
+        <div class="recommendation-card">
+            <blockquote>“Working with Faridhatul has been an awesome experience. She is highly knowledgeable and always goes the extra mile to make sure everything is right.”</blockquote>
+        </div>
+    </div>
+</section>
+
+
+<!-- Recommendation Form -->
+<section class="recommendation-form">
+    <h2>Leave a Recommendation</h2>
+    <form id="recommendationForm">
+        <input type="text" id="name" placeholder="Name (Optional)">
+        <textarea id="message" placeholder="Enter your recommendation here..."></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
