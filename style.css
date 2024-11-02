@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.navbar {
+    background-color: #4a148c;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.navbar nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    color: #4a148c;
+}
+
+.skills {
+    padding: 2rem;
+    background-color: #e8eaf6;
+    text-align: center;
+}
+
+.skills h2 {
+    color: #4a148c;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 150px;
+    text-align: center;
+}
+
+.projects, .recommendations, .recommendation-form {
+    padding: 2rem;
+    text-align: center;
+}
+
+.projects h2, .recommendations h2, .recommendation-form h2 {
+    color: #4a148c;
+}
+
+.recommendations blockquote {
+    font-style: italic;
+    margin: 1rem;
+    color: #555;
+}
+
+.recommendation-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recommendation-form textarea {
+    width: 80%;
+    height: 100px;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.recommendation-form button {
+    padding: 0.5rem 1rem;
+    background-color: #4a148c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
